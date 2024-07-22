@@ -1,1 +1,30 @@
 /* your code */
+table{
+   border-collapse: collapse;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+thead th {
+	border-top: 1px solid black;
+    border-bottom: 1px solid #000;
+	background-color: lightblue;
+}
+tbody tr {
+    border-bottom: 1px solid #000;
+	background-color: lightgray;
+}
+
+.first, .third{
+	background-color: white;
+}
+
+/* tbody tr:last-child {
+    border-bottom: 1px solid #000;
+} */
